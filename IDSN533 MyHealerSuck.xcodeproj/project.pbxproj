@@ -6,8 +6,29 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A6F6E45B30A5714600C0CB1D /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6E45630A5704900C0CB1D /* GameManager.swift */; };
+		A6F6E45C30A5714C00C0CB1D /* Teammate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6E45530A5703A00C0CB1D /* Teammate.swift */; };
+		A6F6E45D30A5714F00C0CB1D /* TeammateStates.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6E45430A5702900C0CB1D /* TeammateStates.swift */; };
+		A6F6E45E30A5715200C0CB1D /* IdiotStrategist.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6E45330A5701800C0CB1D /* IdiotStrategist.swift */; };
+		A6F6E45F30A5715700C0CB1D /* TeammateCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6E45230A5700500C0CB1D /* TeammateCardDeck.swift */; };
+		A6F6E46030A5715B00C0CB1D /* HealerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6E45130A56FEB00C0CB1D /* HealerCard.swift */; };
+		A6F6E46130A5715F00C0CB1D /* GameBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6E45A30A5708F00C0CB1D /* GameBoardView.swift */; };
+		A6F6E46230A5716500C0CB1D /* EncounterResolutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6E45930A5707A00C0CB1D /* EncounterResolutionView.swift */; };
+		A6F6E46330A5716900C0CB1D /* TeammateCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F6E45830A5706A00C0CB1D /* TeammateCardView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A6F6E44230A56F6900C0CB1D /* IDSN533 MyHealerSuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IDSN533 MyHealerSuck.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F6E45130A56FEB00C0CB1D /* HealerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealerCard.swift; sourceTree = "<group>"; };
+		A6F6E45230A5700500C0CB1D /* TeammateCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeammateCardDeck.swift; sourceTree = "<group>"; };
+		A6F6E45330A5701800C0CB1D /* IdiotStrategist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdiotStrategist.swift; sourceTree = "<group>"; };
+		A6F6E45430A5702900C0CB1D /* TeammateStates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeammateStates.swift; sourceTree = "<group>"; };
+		A6F6E45530A5703A00C0CB1D /* Teammate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teammate.swift; sourceTree = "<group>"; };
+		A6F6E45630A5704900C0CB1D /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		A6F6E45830A5706A00C0CB1D /* TeammateCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeammateCardView.swift; sourceTree = "<group>"; };
+		A6F6E45930A5707A00C0CB1D /* EncounterResolutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncounterResolutionView.swift; sourceTree = "<group>"; };
+		A6F6E45A30A5708F00C0CB1D /* GameBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBoardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +53,8 @@
 		A6F6E43930A56F6900C0CB1D = {
 			isa = PBXGroup;
 			children = (
+				A6F6E45730A5705B00C0CB1D /* Views */,
+				A6F6E45030A56F9C00C0CB1D /* Models */,
 				A6F6E44430A56F6900C0CB1D /* IDSN533 MyHealerSuck */,
 				A6F6E44330A56F6900C0CB1D /* Products */,
 			);
@@ -43,6 +66,29 @@
 				A6F6E44230A56F6900C0CB1D /* IDSN533 MyHealerSuck.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F6E45030A56F9C00C0CB1D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A6F6E45130A56FEB00C0CB1D /* HealerCard.swift */,
+				A6F6E45230A5700500C0CB1D /* TeammateCardDeck.swift */,
+				A6F6E45330A5701800C0CB1D /* IdiotStrategist.swift */,
+				A6F6E45430A5702900C0CB1D /* TeammateStates.swift */,
+				A6F6E45530A5703A00C0CB1D /* Teammate.swift */,
+				A6F6E45630A5704900C0CB1D /* GameManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6F6E45730A5705B00C0CB1D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6F6E45830A5706A00C0CB1D /* TeammateCardView.swift */,
+				A6F6E45930A5707A00C0CB1D /* EncounterResolutionView.swift */,
+				A6F6E45A30A5708F00C0CB1D /* GameBoardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +165,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6F6E46330A5716900C0CB1D /* TeammateCardView.swift in Sources */,
+				A6F6E46230A5716500C0CB1D /* EncounterResolutionView.swift in Sources */,
+				A6F6E45D30A5714F00C0CB1D /* TeammateStates.swift in Sources */,
+				A6F6E45E30A5715200C0CB1D /* IdiotStrategist.swift in Sources */,
+				A6F6E46130A5715F00C0CB1D /* GameBoardView.swift in Sources */,
+				A6F6E45B30A5714600C0CB1D /* GameManager.swift in Sources */,
+				A6F6E45F30A5715700C0CB1D /* TeammateCardDeck.swift in Sources */,
+				A6F6E45C30A5714C00C0CB1D /* Teammate.swift in Sources */,
+				A6F6E46030A5715B00C0CB1D /* HealerCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
